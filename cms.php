@@ -1,11 +1,11 @@
 <?php
-/*
 variables([
-	VARSectionsHaveFiles => BOOLYes,
-	VARLinkToSectionHome => BOOLYes,
+	VARLinkToSubnodeHome => BOOLNo,
 ]);
-*/
-autosetPageMenu();
+
+function site_before_render() {
+	autosetPageMenu();
+}
 
 if (nodeIs(SITEHOME))
 	variable(VARWelcomeMessage, replaceItems('We are building an' . NEWLINE .

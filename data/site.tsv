@@ -1,13 +1,11 @@
 #key	value
-name	JoyfulEarth (by Imran)
+name	JoyfulEarth.org [DAWN]
 byline	Spreading Joy
 safeName	joyfulearth
 iconName	JE Home
-footer-message	Laughing like Tulkas in the face of Melkor
+footer-message	Laughing like Tulkas in the face of Melkor.
 siteMenuName	JE Home
-sections	initiatives
-sections_local	library: books+ideas+pencil, initiatives, people, work
-local-url	http://localhost/
+sections	initiatives, offerings, Blog: 2026
+local-url	http://localhost/joyfulearth/
 live-url	https://joyfulearth.org/
 year	2019
-network	no
